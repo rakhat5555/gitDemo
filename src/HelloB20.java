@@ -3,10 +3,8 @@ public class HelloB20 {
         System.out.println("Hello Rakhat");
         // add this code
         int year = 2020;
-        if(year % 4 == 0) {
+        if(year % 4 == 0 && year % 100 == 0) {
             System.out.println("It's a Leap year");
-        } else if (year % 100 == 0) {
-            System.out.println("IT's a leap year");
         } // under this line from the GitHub
         else if(year % 400 == 0) {
             System.out.println("it is a leap year");
