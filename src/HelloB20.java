@@ -8,7 +8,9 @@ public class HelloB20 {
         } else if (year % 100 == 0) {
             System.out.println("IT's a leap year");
         } // under this line from the GitHub
-         else {
+        else if(year % 400 == 0) {
+            System.out.println("it is a leap year");
+        } else {
              System.out.println("this is not a leap year");
          }
     }
